@@ -1,0 +1,212 @@
+/* Overall styling */
+QWidget {
+    border: 0px solid transparent;
+    background-color: #1e1f22;
+}
+
+QLabel {
+    background: transparent;
+    color: #FFFFFF;
+}
+
+/* Menu bar styling */
+QMenuBar {
+    background: #2a2d31;
+    color: #FFFFFF;
+}
+
+QMenuBar::item::selected {
+    background: #34383d;
+}
+
+/* Menu styling */
+QMenu {
+    background-color: #34383d;
+    border: 2px solid transparent;
+}
+
+QMenu::item {
+    background-color: #34383d;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+QMenu::item:selected {
+    background-color: #FF0A54;
+    color: #FFFFFF;
+}
+
+QMenu::separator {
+    height: 1px;
+    margin: 5px 0;
+    background: #4f545b;
+}
+
+QDialog {
+    background-color: #111111;
+    color: #FFFFFF;
+}
+
+/* Status bar styling */
+QStatusBar {
+    background: transparent;
+    color: #FFFFFF;
+}
+
+/* Text editing widgets styling */
+QPlainTextEdit, QLineEdit {
+    border: none;
+    background-color: #1A1A1A;
+    border-radius: 9px;
+    color: #FFFFFF;
+}
+
+/* Combo box styling */
+QComboBox {
+    border: none;
+    background-color: #1A1A1A;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+QComboBox QListView {
+    border: none;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+}
+
+/* Button styling */
+QPushButton {
+    border: none;
+    background-color: #FF0A54;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+QPushButton:pressed {
+    background-color: #1A1A1A;
+}
+
+QPushButton:disabled {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+}
+
+/* Scroll area styling */
+QScrollArea {
+    background-color: #1A1A1A;
+    border-radius: 4px;
+}
+
+QScrollArea QWidget {
+    background-color: #1A1A1A;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background-color: #1A1A1A;
+    width: 8px;
+    margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #FF0A54;
+    border-radius: 4px;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+    background: none;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+QScrollBar:horizontal {
+    border: none;
+    background-color: #1A1A1A;
+    height: 8px;
+    margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #FF0A54;
+    border-radius: 4px;
+    min-width: 20px;
+}
+
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+    width: 0px;
+    background: none;
+}
+
+QScrollBar::add-page:horizontal,
+QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+QPlainTextEdit, QLineEdit, QTextEdit {
+    border: none;
+    background-color: #1A1A1A;
+    border-radius: 9px;
+    color: #FFFFFF;
+}
+
+QTextEdit:focus {
+    border: 2px solid #FF0A54;
+}
+
+/* Scroll bar styling within QTextEdit */
+QTextEdit QScrollBar:vertical {
+    border: none;
+    background-color: #1A1A1A;
+    width: 8px;
+    margin: 0px 0px 0px 0px;
+}
+
+QTextEdit QScrollBar::handle:vertical {
+    background-color: #FF0A54;
+    border-radius: 4px;
+    min-height: 20px;
+}
+
+QTextEdit QScrollBar::add-line:vertical,
+QTextEdit QScrollBar::sub-line:vertical {
+    height: 0px;
+    background: none;
+}
+
+QTextEdit QScrollBar::add-page:vertical,
+QTextEdit QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+QTextEdit QScrollBar:horizontal {
+    border: none;
+    background-color: #1A1A1A;
+    height: 8px;
+    margin: 0px 0px 0px 0px;
+}
+
+QTextEdit QScrollBar::handle:horizontal {
+    background-color: #FF0A54;
+    border-radius: 4px;
+    min-width: 20px;
+}
+
+QTextEdit QScrollBar::add-line:horizontal,
+QTextEdit QScrollBar::sub-line:horizontal {
+    width: 0px;
+    background: none;
+}
+
+QTextEdit QScrollBar::add-page:horizontal,
+QTextEdit QScrollBar::sub-page:horizontal {
+    background: none;
+}
